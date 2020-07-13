@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>メルカリ　スマホで簡単　フリマアプリ</title>
+  </head>
+  <body>
+    <!--   ヘッダー  -->
+    <header>
+      <div class="header__container">
+        <div class="header__top">
+          <div class="header__logo">
+            <img src="./asset/img/mercari_logo.png" width="130px" />
+          </div>
+          <div class="header__register">
+            <button>新規会員</button>
+            <button>ログイン</button>
+          </div>
+        </div>
+        <div class="header__middle">
+          <div class="header__input">
+            <input placeholder="何をお探しですか？" />
+          </div>
+        </div>
+        <div class="header__bottom">
+          <div class="header__search">
+            <div>
+              <div class="header__search--icon">
+                <svg width="20" height="16" viewBox="0 0 20 16">
+                  <path
+                    fill="rgba(234, 53, 45)"
+                    d="M18.799 15.25h-11.5a1.25 1.25 0 1 1 0-2.5h11.5a1.25 1.25 0 0 1 0 2.5zm0-6h-11.5a1.25 1.25 0 1 1 0-2.5h11.5a1.25 1.25 0 0 1 0 2.5zm0-6h-11.5a1.25 1.25 0 1 1 0-2.5h11.5a1.25 1.25 0 0 1 0 2.5zM2 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0-6a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0-6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
+                  />
+                </svg>
+              </div>
+              <p class="header__search--text">カテゴリーから探す</p>
+            </div>
+          </div>
+          <div class="header__search">
+            <div>
+              <div class="header__search--icon">
+                <svg width="23" height="16">
+                  <path
+                    fill="rgba(234, 53, 45)"
+                    d="M6.315 0L4.473 1.806 2.833.019.73 1.977l1.69 1.84L1.198 5.02c-1.594 1.594-1.594 4.188-.01 5.772L6.3 16h13.272a3.08 3.08 0 0 0 3.077-3.077V3.076A3.08 3.08 0 0 0 19.57 0H6.315zm13.46 12.925a.211.211 0 0 1-.205.205H7.504L3.227 8.771a1.226 1.226 0 0 1-.01-1.71L4.38 5.92l1.28 1.371a2.68 2.68 0 1 0 2.13-1.93L6.433 3.907 7.49 2.87h12.082a.211.211 0 0 1 .206.205v9.848h-.002z"
+                  />
+                </svg>
+              </div>
+              <p class="header__search--text">ブランドから探す</p>
+              <!--  Tablet用　-->
+              <div class="header__register_tablet">
+                <button class="header__register_new">新規会員登録</button>
+                <button class="header__register_login">ログイン</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ヘッダー : 終 -->
+    <!-- メインコンテンツ -->
+    <section class="item__layout">
+      <!-- バナー1 -->
+      <div class="section__header--banner">
+        <img src="./asset/img/merrucari_app_banner01.png" />
+      </div>
+      <div class="section__header">
+        <div class="section__header--title"><p>人気のカテゴリー</p></div>
+        <div class="section__scrollable">
+          <ul class="section__categories">
+            <li class="section__category">
+              <p>レディース</p>
+            </li>
+            <li class="section__category">
+              <p>メンズ</p>
+            </li>
+            <li class="section__category">
+              <p>家電・スマホ・カメラ</p>
+            </li>
+            <li class="section__category">
+              <p>おもちゃ・ホビー・グッズ</p>
+            </li>
+            <!--<li class="section__category">
+              <p>家電・スマホ・カメラ</p>
+            </li>-->
+          </ul>
+        </div>
+      </div>
+      <div class="section__body">
+        <div class="section__body__header">
+          <div class="section__body__header--title">
+            <p>レディース新着アイテム</p>
+          </div>
+          <div class="section__body__header--more">
+            <div class="more__text"><p>もっと見る</p></div>
+            <div class="more__arrow">
+              <svg viewBox="0 0 512.002 512.002">
+                <g>
+                  <g>
+                    <path
+                      fill="#3295ee"
+                      d="M388.425,241.951L151.609,5.79c-7.759-7.733-20.321-7.72-28.067,0.04c-7.74,7.759-7.72,20.328,0.04,28.067l222.72,222.105
+                 L123.574,478.106c-7.759,7.74-7.779,20.301-0.04,28.061c3.883,3.89,8.97,5.835,14.057,5.835c5.074,0,10.141-1.932,14.017-5.795
+                 l236.817-236.155c3.737-3.718,5.834-8.778,5.834-14.05S392.156,245.676,388.425,241.951z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="section__items">
+          <div class="section__item">
+            <img class="image" src="asset/img/mercari_item.jpg" />
+            <div class="text">
+              <p>服</p>
+            </div>
+          </div>
+          <div class="section__item">
+            <img class="image" src="asset/img/mercari_item.jpg" />
+            <div class="text">
+              <p>服</p>
+            </div>
+          </div>
+          <div class="section__item">
+            <img class="image" src="asset/img/mercari_item.jpg" />
+            <div class="text">
+              <p>服</p>
+            </div>
+          </div>
+          <div class="section__item">
+            <img class="image" src="asset/img/mercari_item.jpg" />
+            <div class="text">
+              <p>服</p>
+            </div>
+          </div>
+          <div class="section__item">
+            <img class="image" src="asset/img/mercari_item.jpg" />
+            <div class="text">
+              <p>服</p>
+            </div>
+          </div>
+          <div class="section__item">
+            <img class="image" src="asset/img/mercari_item.jpg" />
+            <div class="text">
+              <p>服</p>
+            </div>
+          </div>
+          <div class="section__item">
+            <img class="image" src="asset/img/mercari_item.jpg" />
+            <div class="text">
+              <p>服</p>
+            </div>
+          </div>
+          <div class="section__item">
+            <img class="image" src="asset/img/mercari_item.jpg" />
+            <div class="text">
+              <p>服</p>
+            </div>
+          </div>
+          <div class="section__item">
+            <img class="image" src="asset/img/mercari_item.jpg" />
+            <div class="text">
+              <p>服</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 出品ボタン : 終 -->
+  </body>
+</html>
